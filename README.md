@@ -1,2 +1,2 @@
-- [stormbot.bsky.social ‒>](https://stormbot.bsky.social/)
-- [mcpaintings.bsky.social ‒>](https://mcpaintings.bsky.social/)
+- [stormbot.bsky.social](https://stormbot.bsky.social/) / [stormbot ‒>](https://stormzulien.github.io/bluesky-bots/stormbot)
+- [mapaintings.bsky.social](https://mcpaintings.bsky.social/) / [mcpaintings ‒>](https://stormzulien.github.io/bluesky-bots/mcpaintings)
