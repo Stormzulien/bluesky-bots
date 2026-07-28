@@ -4,7 +4,7 @@
     "description": "A kebab with three green chili peppers.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2001",
-    "aspect_ratio": { "width": 1, "height": 1 },
+    "size": { "width": 1, "height": 1 },
     "art_medium": "oil on linoleum",
     "original": {
       "name": "Kebab med tre pepperoni",
@@ -17,7 +17,7 @@
     "description": "Free-look perspective of the map “Aztec” from the video game series “Counter-Strike”.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2002",
-    "aspect_ratio": { "width": 1, "height": 1 },
+    "size": { "width": 1, "height": 1 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "de_aztec",
@@ -30,7 +30,7 @@
     "description": "A man wearing a fez next to a house and a bush.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2002",
-    "aspect_ratio": { "width": 1, "height": 1 },
+    "size": { "width": 1, "height": 1 },
     "art_medium": "oil on cardboard",
     "original": {
       "name": "Albanian",
@@ -43,7 +43,7 @@
     "description": "Free-look perspective of the map “Aztec” from the video game series “Counter-Strike”.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2002",
-    "aspect_ratio": { "width": 1, "height": 1 },
+    "size": { "width": 1, "height": 1 },
     "art_medium": "oil on MDF",
     "original": {
       "name": "de_aztec",
@@ -56,7 +56,7 @@
     "description": "The map “Dust II” from the video game series “Counter-Strike.”",
     "artist": "Kristoffer Zetterstrand",
     "year": "2002",
-    "aspect_ratio": { "width": 1, "height": 1 },
+    "size": { "width": 1, "height": 1 },
     "art_medium": "oil on MDF",
     "original": {
       "name": "Target Successfully Bombed",
@@ -69,7 +69,7 @@
     "description": "Still life of two plants in pots.",
     "artist": "Kristoffer Zetterstrand",
     "year": "1997",
-    "aspect_ratio": { "width": 1, "height": 1 },
+    "size": { "width": 1, "height": 1 },
     "art_medium": "oil on linoleum",
     "original": {
       "name": "Paradisträd",
@@ -82,7 +82,7 @@
     "description": "A view of some wasteland; a small animal, presumably a rabbit, is sitting on the windowsill.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2005",
-    "aspect_ratio": { "width": 1, "height": 1 },
+    "size": { "width": 1, "height": 1 },
     "art_medium": "oil on panel",
     "original": {
       "name": "Wasteland",
@@ -95,7 +95,7 @@
     "description": "A rose in front of a blue sky.",
     "artist": "Sarah Boeving",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 1, "height": 1 },
+    "size": { "width": 1, "height": 1 },
     "art_medium": "digital art",
     "original": null,
     "based_on": {
@@ -110,7 +110,7 @@
     "description": "Rear view of a man standing with a walking stick.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2008",
-    "aspect_ratio": { "width": 1, "height": 2 },
+    "size": { "width": 1, "height": 2 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Wanderer",
@@ -128,7 +128,7 @@
     "description": "King Graham, the player character in the video game series “King's Quest”.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2003",
-    "aspect_ratio": { "width": 1, "height": 2 },
+    "size": { "width": 1, "height": 2 },
     "art_medium": "oil on panel",
     "original": {
       "name": "Graham",
@@ -146,7 +146,7 @@
     "description": "Minecraft skin “Noor” riding a horse.",
     "artist": "Sarah Boeving",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 1, "height": 2 },
+    "size": { "width": 1, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": {
@@ -161,7 +161,7 @@
     "description": "Some people in and around a pool.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2008",
-    "aspect_ratio": { "width": 2, "height": 1 },
+    "size": { "width": 2, "height": 1 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "The Pool",
@@ -174,7 +174,7 @@
     "description": "Two hikers with pointy beards seemingly greeting each other.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2003",
-    "aspect_ratio": { "width": 2, "height": 1 },
+    "size": { "width": 2, "height": 1 },
     "art_medium": "graphite on paper",
     "original": {
       "name": "Bonjour Monsieur Courbet",
@@ -192,7 +192,7 @@
     "description": "A view of mountains at sunset.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2003",
-    "aspect_ratio": { "width": 2, "height": 1 },
+    "size": { "width": 2, "height": 1 },
     "art_medium": "oil on MDF",
     "original": {
       "name": "Sunset dense",
@@ -205,7 +205,7 @@
     "description": "Mountains and a lake, with a small photo of a mountain and a bright-colored plant on the window ledge.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2005",
-    "aspect_ratio": { "width": 2, "height": 1 },
+    "size": { "width": 2, "height": 1 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Seaside",
@@ -218,7 +218,7 @@
     "description": "Mountains and a lake, with a small photo of a mountain and a Creeper head on the window ledge.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2005",
-    "aspect_ratio": { "width": 2, "height": 1 },
+    "size": { "width": 2, "height": 1 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Seaside",
@@ -231,7 +231,7 @@
     "description": "A hand holding a match, causing fire on a white cubic gas fireplace.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2009",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Match",
@@ -244,7 +244,7 @@
     "description": "A bust of Marcus Aurelius surrounded by fire.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2009",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "egg tempera and oil on canvas",
     "original": {
       "name": "Bust",
@@ -257,7 +257,7 @@
     "description": "Scenery from the video game “Space Quest I”, with the character Graham from the video game series “King's Quest” appearing twice.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2006",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "The Stage Is Set",
@@ -270,7 +270,7 @@
     "description": "An angel praying into a void with fire below.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2009",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "egg tempera and oil on canvas",
     "original": {
       "name": "The void",
@@ -283,7 +283,7 @@
     "description": "A skeleton at night with red flowers in the foreground.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2009",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Moonlight Installation",
@@ -296,7 +296,7 @@
     "description": "The creation of the wither. (Block statue)",
     "artist": "Jens Bergensten",
     "year": "2012 (or earlier)",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -306,7 +306,7 @@
     "description": "A decorated pot, a cake, and a sunflower on a dark background.",
     "artist": "Sarah Boeving",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -316,7 +316,7 @@
     "description": "Two Minecraft villagers in front of a village house.",
     "artist": "Sarah Boeving",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": {
@@ -331,7 +331,7 @@
     "description": "A bouquet of flowers next to a stairway with a person sitting beside it.",
     "artist": "Kristoffer Zetterstrand",
     "year": "Date unknown",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "unknown",
     "original": null,
     "based_on": null
@@ -341,7 +341,7 @@
     "description": "A cave in a cliff with a bird flying overhead.",
     "artist": "Kristoffer Zetterstrand",
     "year": "Date unknown",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "unknown",
     "original": null,
     "based_on": null
@@ -351,7 +351,7 @@
     "description": "A golden apple and an inverted glistering melon slice in a windowsill. The golden apple is tied by a string in the air and the glistering melon slice is sitting on the windowsill.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2022",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "oil on canvas",
     "original": null,
     "based_on": {
@@ -366,7 +366,7 @@
     "description": "A skeleton in a brick archway. It features a white silhouette of the character Graham from the video game series “King's Quest”.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2006",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Consider it",
@@ -379,7 +379,7 @@
     "description": "A potted fern on a desk with a small fire.",
     "artist": "Kristoffer Zetterstrand",
     "year": "Date unknown",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "unknown",
     "original": null,
     "based_on": null
@@ -389,7 +389,7 @@
     "description": "A two-dimensional owl inside a box, next to some lemons.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2023",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Lemons and owl",
@@ -407,7 +407,7 @@
     "description": "Some potted plants on a table with a two-dimensional sunflower.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2023",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Lion and Sunflowers",
@@ -420,7 +420,7 @@
     "description": "A person sitting in a fetal position by a shoreline.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2018",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "airbrush, vinyl, and oil on canvas",
     "original": {
       "name": "Oh, The Sea",
@@ -433,7 +433,7 @@
     "description": "A Minecraft pale wolf, with it's tongue sticking out. :p",
     "artist": "Sarah Boeving",
     "year": "2025 (or earlier)",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "unknown",
     "original": null,
     "based_on": null
@@ -443,7 +443,7 @@
     "description": "A brick archway with two women sitting in the yard.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2022",
-    "aspect_ratio": { "width": 3, "height": 4 },
+    "size": { "width": 3, "height": 4 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "The Backyard",
@@ -461,7 +461,7 @@
     "description": "A maiden sitting in a pond, next to a half-submerged skeleton.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2018",
-    "aspect_ratio": { "width": 3, "height": 4 },
+    "size": { "width": 3, "height": 4 },
     "art_medium": "airbrush, vinyl, and oil on canvas",
     "original": {
       "name": "Death And The Maiden",
@@ -474,7 +474,7 @@
     "description": "Two video game characters from “The Way of the Exploding Fist” poised to fight.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2007",
-    "aspect_ratio": { "width": 4, "height": 2 },
+    "size": { "width": 4, "height": 2 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Fighters",
@@ -492,7 +492,7 @@
     "description": "A person changing clothes in front of some set pieces, including a contrasting gloomy mountain and a sunny countryside.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2008",
-    "aspect_ratio": { "width": 4, "height": 2 },
+    "size": { "width": 4, "height": 2 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Change of set",
@@ -505,7 +505,7 @@
     "description": "A person looks into a recently-dug hole with Hellenistic ruins in the background. Studio lights are set up next to them.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2015-2016",
-    "aspect_ratio": { "width": 4, "height": 2 },
+    "size": { "width": 4, "height": 2 },
     "art_medium": "ink, airbrush, vinyl, and oil on canvas",
     "original": {
       "name": "The Find",
@@ -518,7 +518,7 @@
     "description": "A digital render of a mountainous landscape.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2003",
-    "aspect_ratio": { "width": 4, "height": 2 },
+    "size": { "width": 4, "height": 2 },
     "art_medium": "oil on MDF",
     "original": {
       "name": "LowMist",
@@ -531,7 +531,7 @@
     "description": "A surreal, mineshaft-like hallway in front of a scene of a beach, with posed skeletons of a person and an extinct giant ground sloth.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2010",
-    "aspect_ratio": { "width": 4, "height": 2 },
+    "size": { "width": 4, "height": 2 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "The passage",
@@ -544,7 +544,7 @@
     "description": "A skeleton (Bruno Martinez, from “Grim Fandango”), sitting in something.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2003",
-    "aspect_ratio": { "width": 4, "height": 3 },
+    "size": { "width": 4, "height": 3 },
     "art_medium": "oil on panel",
     "original": {
       "name": "Mortal Coil",
@@ -557,7 +557,7 @@
     "description": "A paper-looking screenshot of the level 100m from the ColecoVision port of the arcade video game “Donkey Kong”.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2003",
-    "aspect_ratio": { "width": 4, "height": 3 },
+    "size": { "width": 4, "height": 3 },
     "art_medium": "oil on panel",
     "original": {
       "name": "Kong",
@@ -570,7 +570,7 @@
     "description": "The main character of the video game “International Karate +” in a fighting stance touching a large hand.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2008",
-    "aspect_ratio": { "width": 4, "height": 4 },
+    "size": { "width": 4, "height": 4 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Pointer",
@@ -583,7 +583,7 @@
     "description": "A girl pointing to a pig on a canvas.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2008",
-    "aspect_ratio": { "width": 4, "height": 4 },
+    "size": { "width": 4, "height": 4 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "RGB",
@@ -601,7 +601,7 @@
     "description": "A skull on fire; in the background, there is a moon in a clear night sky.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2010",
-    "aspect_ratio": { "width": 4, "height": 4 },
+    "size": { "width": 4, "height": 4 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "Skull on Fire",
@@ -614,7 +614,7 @@
     "description": "An orb of light in the middle of an Italian landscape at night.",
     "artist": "Kristoffer Zetterstrand",
     "year": "2022",
-    "aspect_ratio": { "width": 4, "height": 4 },
+    "size": { "width": 4, "height": 4 },
     "art_medium": "oil on canvas",
     "original": {
       "name": "The orb",
@@ -632,7 +632,7 @@
     "description": "A Minecraft landscape, showing a cliff with a waterfall and a pig floating in water. (Based on pack.png [https://mc.wiki/Resource_pack#pack.png])",
     "artist": "Sarah Boeving",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 4, "height": 4 },
+    "size": { "width": 4, "height": 4 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -642,7 +642,7 @@
     "description": "Abstract art representing “earth”.",
     "artist": "Mojang (Unknown Artist)",
     "year": "Date unknown",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -652,7 +652,7 @@
     "description": "Abstract art representing “wind”.",
     "artist": "Mojang (Unknown Artist)",
     "year": "Date unknown",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -662,7 +662,7 @@
     "description": "Abstract art representing “fire”.",
     "artist": "Mojang (Unknown Artist)",
     "year": "Date unknown",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -672,7 +672,7 @@
     "description": "Abstract art representing “water”.",
     "artist": "Mojang (Unknown Artist)",
     "year": "Date unknown",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -682,7 +682,7 @@
     "description": "Abstract, low-resolution image of a Minecraft poisonous potato.",
     "artist": "Mr. Potato (Unknown Artist)",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 2, "height": 2 },
+    "size": { "width": 2, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -692,7 +692,7 @@
     "description": "Minecraft player with a poisonous potato on their face, facing the camera.",
     "artist": "Mr. Potato (Unknown Artist)",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 2, "height": 3 },
+    "size": { "width": 2, "height": 3 },
     "art_medium": "digital art",
     "original": null,
     "based_on": {
@@ -707,7 +707,7 @@
     "description": "Poisonous potato in front of a blue sky with clouds.",
     "artist": "Cris B (Unknown Artist)",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 4, "height": 2 },
+    "size": { "width": 4, "height": 2 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -717,7 +717,7 @@
     "description": "Grid of nine poisonous potatoes in modified colours.",
     "artist": "Mr. Potato (Unknown Artist)",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 3, "height": 3 },
+    "size": { "width": 3, "height": 3 },
     "art_medium": "digital art",
     "original": null,
     "based_on": null
@@ -727,7 +727,7 @@
     "description": "A poisonous potato on fire; in the background, there is a moon in a clear night sky.",
     "artist": "Mr. Potato (Unknown Artist)",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 4, "height": 4 },
+    "size": { "width": 4, "height": 4 },
     "art_medium": "digital art",
     "original": null,
     "based_on": {
@@ -742,7 +742,7 @@
     "description": "Poisonous potato with text underneath reading “This is not a potato” in messy handwriting against a light beige-yellow background.",
     "artist": "Mr. Potato (Unknown Artist)",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 8, "height": 4 },
+    "size": { "width": 8, "height": 4 },
     "art_medium": "digital art",
     "original": null,
     "based_on": {
@@ -757,7 +757,7 @@
     "description": "An image of a Minecraft poisonous potato against a light beige-yellow background.",
     "artist": "Mr. Potato (Unknown Artist)",
     "year": "2024 (or earlier)",
-    "aspect_ratio": { "width": 8, "height": 8 },
+    "size": { "width": 8, "height": 8 },
     "art_medium": "digital art",
     "original": null,
     "based_on": {
