@@ -32,6 +32,18 @@
 		"#mc-painting#",
 		"#mc-painting#",
 		"#mc-painting#",
+		"#mc-painting#",
+		"#mc-painting#",
+		"#mc-painting#",
+		"#mc-painting#",
+		"#mc-painting#",
+		"#mc-painting#",
+		"#mc-painting#",
+		"#mc-painting#",
+		"#mc-painting-orig#",
+		"#mc-painting-orig#",
+		"#mc-painting-orig#",
+		"#mc-painting-orig#",
 		"#mc-painting-orig#",
 		"#mc-painting-orig#",
 		"#mc-painting-orig#",
@@ -48,8 +60,12 @@
 		"#mc-painting-based-on#",
 		"#mc-painting-based-on#",
 		"#mc-painting-based-on#",
-		"#mc-painting-rare-based-on#",
-		"#mc-painting-rare#"
+		"#mc-painting-based-on#",
+		"#mc-painting-based-on#",
+		"#mc-painting-based-on#",
+		"#mc-painting-based-on#",
+		"#mc-painting-rare#",
+		"#mc-painting-rare-based-on#"
 	],
 	"location": [
 		"https://stormzulien.github.io/bluesky-bots/mcpaintings/images/paintings/"
@@ -107,17 +123,17 @@
 		"Random Minecraft Painting, No. {n}:\n\n“Unpacked”, by Sarah Boeving (2024 (or earlier)){img #location#unpacked.png {item #alt-texts# 46}}"
 	],
 	"mc-painting-rare": [
-		"Random Minecraft Painting, No. {n}:\n\n“Earth”, by Mojang (Unknown Artist) (Date unknown){img #location#earth.png {item #alt-texts# 47}}",
-		"Random Minecraft Painting, No. {n}:\n\n“Wind”, by Mojang (Unknown Artist) (Date unknown){img #location#wind.png {item #alt-texts# 48}}",
-		"Random Minecraft Painting, No. {n}:\n\n“Fire”, by Mojang (Unknown Artist) (Date unknown){img #location#fire.png {item #alt-texts# 49}}",
-		"Random Minecraft Painting, No. {n}:\n\n“Water”, by Mojang (Unknown Artist) (Date unknown){img #location#water.png {item #alt-texts# 50}}",
-		"Random Minecraft Painting, No. {n}:\n\n“Tasty Shapes”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#abtsractato.png {item #alt-texts# 51}}",
-		"Random Minecraft Painting, No. {n}:\n\n“Self Portrait”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#mr_potato.png {item #alt-texts# 52}}",
-		"Random Minecraft Painting, No. {n}:\n\n“Potato”, by Cris B (Unknown Artist) (2024 (or earlier)){img #location#potatoe.png {item #alt-texts# 53}}",
-		"Random Minecraft Painting, No. {n}:\n\n“In The Spotlight”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#ubiquitato.png {item #alt-texts# 54}}",
-		"Random Minecraft Painting, No. {n}:\n\n“Hot Potato”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#burning_potato.png {item #alt-texts# 55}}",
-		"Random Minecraft Painting, No. {n}:\n\n“This is not a potato”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#ceci.png {item #alt-texts# 56}}",
-		"Random Minecraft Painting, No. {n}:\n\n“The Treachery of Potatoes”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#poisonous_potato.png {item #alt-texts# 57}}"
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“Earth”, by Mojang (Unknown Artist) (Date unknown){img #location#earth.png {item #alt-texts# 47}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“Wind”, by Mojang (Unknown Artist) (Date unknown){img #location#wind.png {item #alt-texts# 48}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“Fire”, by Mojang (Unknown Artist) (Date unknown){img #location#fire.png {item #alt-texts# 49}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“Water”, by Mojang (Unknown Artist) (Date unknown){img #location#water.png {item #alt-texts# 50}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“Tasty Shapes”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#abtsractato.png {item #alt-texts# 51}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“Self Portrait”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#mr_potato.png {item #alt-texts# 52}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“Potato”, by Cris B (Unknown Artist) (2024 (or earlier)){img #location#potatoe.png {item #alt-texts# 53}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“In The Spotlight”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#ubiquitato.png {item #alt-texts# 54}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“Hot Potato”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#burning_potato.png {item #alt-texts# 55}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“This is not a potato”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#ceci.png {item #alt-texts# 56}}",
+		"(RARE!!) Random Minecraft Painting, No. {n}:\n\n“The Treachery of Potatoes”, by Mr. Potato (Unknown Artist) (2024 (or earlier)){img #location#poisonous_potato.png {item #alt-texts# 57}}"
 	],
 	"mc-painting-art-medium": [
 		"The medium used for the original version of the Minecraft painting “Kebab med tre pepperoni” by Kristoffer Zetterstrand was oil on linoleum.{img #location#kebab.png {item #alt-texts# 0}}",
@@ -174,10 +190,10 @@
 		"The Minecraft painting “Orb” by Kristoffer Zetterstrand is based off of the painting “St. Francis in Ecstasy”, by Giovanni Bellini (c. 1480):{img #location-orig#Giovanni_Bellini_-_Saint_Francis_in_the_Desert_-_Google_Art_Project.jpg No alt text yet, sorry.}{img #location#orb.png \\[Minecraft version\\]: {item #alt-texts# 45}}"
 	],
 	"mc-painting-rare-based-on": [
-		"The Minecraft painting “Self Portrait” by Mr. Potato (Unknown Artist) is based off of the painting “The Son of Man”, by René Magritte (1964):{img #location-orig#Magritte_TheSonOfMan.jpg No alt text yet, sorry.}{img #location#mr_potato.png \\[Minecraft version\\]: {item #alt-texts# 52}}",
-		"The Minecraft painting “Hot Potato” by Mr. Potato (Unknown Artist) is based off of the painting “Skull on Fire”, by Kristoffer Zetterstrand (2010):{img #location-orig#burning_skull.png No alt text yet, sorry.}{img #location#burning_potato.png \\[Minecraft version\\]: {item #alt-texts# 55}}",
-		"The Minecraft painting “This is not a potato” by Mr. Potato (Unknown Artist) is based off of the painting “The Treachery of Images”, by René Magritte (1929):{img #location-orig#MagrittePipe.jpg No alt text yet, sorry.}{img #location#ceci.png \\[Minecraft version\\]: {item #alt-texts# 56}}",
-		"The Minecraft painting “The Treachery of Potatoes” by Mr. Potato (Unknown Artist) is based off of the painting “The Treachery of Images”, by René Magritte (1929):{img #location-orig#MagrittePipe.jpg No alt text yet, sorry.}{img #location#poisonous_potato.png \\[Minecraft version\\]: {item #alt-texts# 57}}"
+		"(RARE!!) The Minecraft painting “Self Portrait” by Mr. Potato (Unknown Artist) is based off of the painting “The Son of Man”, by René Magritte (1964):{img #location-orig#Magritte_TheSonOfMan.jpg No alt text yet, sorry.}{img #location#mr_potato.png \\[Minecraft version\\]: {item #alt-texts# 52}}",
+		"(RARE!!) The Minecraft painting “Hot Potato” by Mr. Potato (Unknown Artist) is based off of the painting “Skull on Fire”, by Kristoffer Zetterstrand (2010):{img #location-orig#burning_skull.png No alt text yet, sorry.}{img #location#burning_potato.png \\[Minecraft version\\]: {item #alt-texts# 55}}",
+		"(RARE!!) The Minecraft painting “This is not a potato” by Mr. Potato (Unknown Artist) is based off of the painting “The Treachery of Images”, by René Magritte (1929):{img #location-orig#MagrittePipe.jpg No alt text yet, sorry.}{img #location#ceci.png \\[Minecraft version\\]: {item #alt-texts# 56}}",
+		"(RARE!!) The Minecraft painting “The Treachery of Potatoes” by Mr. Potato (Unknown Artist) is based off of the painting “The Treachery of Images”, by René Magritte (1929):{img #location-orig#MagrittePipe.jpg No alt text yet, sorry.}{img #location#poisonous_potato.png \\[Minecraft version\\]: {item #alt-texts# 57}}"
 	],
 	"mc-painting-orig": [
 		"This is the original version of the Minecraft painting “Kebab med tre pepperoni” by Kristoffer Zetterstrand:{img #location-orig#kebab2.jpg {item #alt-texts-orig# 0}}{img #location#kebab.png \\[Minecraft version\\]: {item #alt-texts# 0}}",
