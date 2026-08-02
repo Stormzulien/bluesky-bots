@@ -194,6 +194,7 @@
 	"(?<=\\s|^)\\?post:jsgen-object(?:\\s.*)?$": "#jsgen-object#",
 	"(?<=\\s|^)\\?post:special-18(?:\\s.*)?$": "#special-18#",
 	"(?<=\\s|^)\\?post:minecraft-painting(?:\\s.*)?$": "#minecraft-painting#",
+	"(?<=\\s|^)\\?post:special-19(?:\\s.*)?$": "\\[special-19\\] Rule has been excluded",
 	"(?<=\\s|^)\\?post:test(?:\\s.*)?$": "\\[test\\] Test rule has been excluded",
 	"(?<=\\s|^)\\?post:origin(?:\\s.*)?$": "#origin#",
 	"(?<=\\s|^)\\?post:animal(?:\\s.*)?$": "#animal#",

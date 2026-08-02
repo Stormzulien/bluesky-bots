@@ -41605,6 +41605,7 @@
 		"Minecraft Alex",
 		"Herobrine",
 		"Kris",
+		"Kris Dreemurr",
 		"Papyrus",
 		"Disappearing Guy",
 		"a random lost penguin from #place#",
@@ -41616,6 +41617,7 @@
 		"Grant Best",
 		"Suzie Joanne",
 		"Scratch",
+		"Mike",
 		"Mike Dobby",
 		"Keir Starmer",
 		"Andy Burnham",
@@ -85313,7 +85315,9 @@
 		"#origin.replace(a,i).replace(b,j).replace(c,k).replace(d,l).replace(e,m).replace(f,n).replace(g,o).replace(h,p).replace(i,q).replace(j,r).replace(k,s).replace(l,t).replace(m,u).replace(n,v).replace(o,w).replace(p,x).replace(q,y).replace(r,z).replace(s,a).replace(t,b).replace(u,c).replace(v,d).replace(w,e).replace(x,f).replace(y,g).replace(z,h)# \\#scrambled",
 		"Ba da do da do",
 		"🚨 ALERT: this [BOT] is WOKE! 🚨",
-		"Hello, I'm your neighbor, goodbye, I'll see you #when##punc-end#"
+		"Hello, I'm your neighbor, goodbye, I'll see you #when##punc-end#",
+		"* (The size of #person#'s ass, seems really variable lately.)",
+		"Why don't you take a look at https://en.wikipedia.org/wiki/#place.replace( ,_)# ! It's where I'm from!"
 	],
 	"punc-end": [
 		".",
@@ -108992,6 +108996,7 @@
 		"Free will isn't real. But you know what is real!?⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
 		"Is this a rinsing machine or a filling machine?",
 		"Текст на русском, капуста, бокал вина, сиськи. Я не говорю по-русски, я просто перевожу это, ладно?",
+		"#special-19#",
 		"#svg-quote-scream#",
 		"#rare#",
 		"#rare#"
@@ -111175,6 +111180,17 @@
 		"#person# spanker",
 		"#person# #verb#er",
 		"#animal#",
+		"#element#-farmer",
+		"#particle#-farmer",
+		"#plant#-farmer",
+		"people who hate #job.s#",
+		"#food#-eater",
+		"people over the age of #integer#",
+		"#job# over the age of #integer#",
+		"#job.s# over the age of #integer#",
+		"Google Engineer",
+		"Arsonist",
+		"protester",
 		"Expert",
 		"explorer",
 		"Accountant",
@@ -111439,6 +111455,7 @@
 		"Food Scientist",
 		"Food Technologist",
 		"Forensic Computer Analyst",
+		"Computer Scientist",
 		"Forensic Psychologist",
 		"Forensic Scene Examiner",
 		"Forensic Scientist",
@@ -111457,6 +111474,7 @@
 		"Games Designer",
 		"Games Programmer",
 		"Games Tester",
+		"Programmer",
 		"Garden Centre Worker",
 		"Gardener",
 		"Garment Technologist",
@@ -111943,7 +111961,8 @@
 		"Yoga Teacher",
 		"Youth Worker",
 		"Zookeeper",
-		"Zoologist"
+		"Zoologist",
+		"Shoplifter"
 	],
 	"set-6": [
 		"#alert#: #person# has decided to become #job.a##punc-end# #emoji# #hashtag#",
@@ -128607,5 +128626,10 @@
 	],
 	"minecraft-painting": [
 		
+	],
+	"special-19": [
+		"* (The size of Mike's ass, seems really variable lately.)",
+		"* (The size of my ass, seems really variable lately.)",
+		"* (The size of your ass, seems really variable lately.)"
 	]
 }

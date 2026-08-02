@@ -85,8 +85,7 @@
       import main from "./main.json" with { type: "json" };
 
       // const defaultRule = "origin";
-      const excluded = ["set-14", "very-rare", "term-filter"];
-
+      const excluded = ["set-14", "very-rare", "term-filter", "special-19"];
       const rules = Object.keys(main)
         .filter(r => !(excluded.includes(r) || r.includes("test")));
 
