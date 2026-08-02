@@ -41547,7 +41547,7 @@
 		"zouk",
 		"zzz"
 	],
-	"time": [
+	"when": [
 		"today",
 		"tomorrow",
 		"yesterday",
@@ -41559,7 +41559,8 @@
 		"on Friday",
 		"on Saturday",
 		"never",
-		"never ever"
+		"never ever",
+		"later"
 	],
 	"person": [
 		"#names-generic.capitalize#",
@@ -85181,7 +85182,8 @@
 		"millennium",
 		"#integer# years",
 		"year",
-		"forever"
+		"forever",
+		"later"
 	],
 	"rare": [
 		"#very-rare#",
@@ -85309,7 +85311,9 @@
 		"Do you wear wigs?",
 		"[_p:#plant#]\\#NatureFact: The #_p# is a plant found only in #place##punc-end# It's most famous for its distinct #_p#-like smell#punc-end#",
 		"#origin.replace(a,i).replace(b,j).replace(c,k).replace(d,l).replace(e,m).replace(f,n).replace(g,o).replace(h,p).replace(i,q).replace(j,r).replace(k,s).replace(l,t).replace(m,u).replace(n,v).replace(o,w).replace(p,x).replace(q,y).replace(r,z).replace(s,a).replace(t,b).replace(u,c).replace(v,d).replace(w,e).replace(x,f).replace(y,g).replace(z,h)# \\#scrambled",
-		"Ba da do da do"
+		"Ba da do da do",
+		"🚨 ALERT: this [BOT] is WOKE! 🚨",
+		"Hello, I'm your neighbor, goodbye, I'll see you #when##punc-end#"
 	],
 	"punc-end": [
 		".",
@@ -85459,9 +85463,9 @@
 		"#time.capitalize#, #animal# #adverb# #verb-ed##punc-end#",
 		"#animal.capitalize# will #verb##punc-end# #hashtag#",
 		"#animal.capitalize# will #adverb# #verb##punc-end#",
-		"#animal.capitalize# will #adverb# #verb# #time##punc-end#",
+		"#animal.capitalize# will #adverb# #verb# #when##punc-end#",
 		"#person# will likely #verb##punc-end#",
-		"#person# will likely #verb# #time##punc-end#",
+		"#person# will likely #verb# #when##punc-end#",
 		"#time.capitalize#, #person# will go to #location##punc-end#",
 		"#time.capitalize#, #person# will go to #place##punc-end#",
 		"#person# had #verb-ed##punc-end#",
@@ -85486,7 +85490,7 @@
 		"#adverb.capitalize# #verb# #determiner# #animal##punc-end#",
 		"#adverb.capitalize# #verb# #determiner# #animal#'s #animal##punc-end#",
 		"I will send you to #place-people-name.capitalize#. #hashtag#",
-		"I will send you to #place-people-name.capitalize# #time##punc-end#",
+		"I will send you to #place-people-name.capitalize# #when##punc-end#",
 		"#rare#",
 		"You should try “#game#”!!!",
 		"I have #number# #noun.s##punc-end#",
@@ -127134,7 +127138,7 @@
 		"#adverb#",
 		"#noun#",
 		"#verb#",
-		"#time#",
+		"#when#",
 		"#person#",
 		"#letter#",
 		"#characters#",

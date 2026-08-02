@@ -203,7 +203,7 @@
 	"(?<=\\s|^)\\?post:adverb(?:\\s.*)?$": "#adverb#",
 	"(?<=\\s|^)\\?post:noun(?:\\s.*)?$": "#noun#",
 	"(?<=\\s|^)\\?post:verb(?:\\s.*)?$": "#verb#",
-	"(?<=\\s|^)\\?post:time(?:\\s.*)?$": "#time#",
+	"(?<=\\s|^)\\?post:when(?:\\s.*)?$": "#when#",
 	"(?<=\\s|^)\\?post:person(?:\\s.*)?$": "#person#",
 	"(?<=\\s|^)\\?post:letter(?:\\s.*)?$": "#letter#",
 	"(?<=\\s|^)\\?post:characters(?:\\s.*)?$": "#characters#",
