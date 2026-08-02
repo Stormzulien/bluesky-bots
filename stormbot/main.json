@@ -90553,6 +90553,7 @@
 		"that"
 	],
 	"hashtag": [
+		"#rare-hashtag#",
 		"#blank#",
 		"#blank#",
 		"#blank#",
@@ -90585,7 +90586,10 @@
 		"\\##word.replace( ,-)#",
 		"\\##adjective.replace( ,-)#",
 		"\\##person.replace( ,)#",
-		"#rare-hashtag#"
+		"\\##word.replace( ,).capitalize#",
+		"\\##word.replace( ,).capitalize##word.replace( ,).capitalize#",
+		"\\##word.replace( ,).capitalize##word.replace( ,).capitalize##word.replace( ,).capitalize#",
+		"\\##word.replace( ,).capitalize##word.replace( ,).capitalize##word.replace( ,).capitalize##word.replace( ,).capitalize#"
 	],
 	"integer": [
 		"#integer#",
