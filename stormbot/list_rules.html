@@ -2,8 +2,9 @@
 <html>
   <head>
     <title>List rules</title>
-    <!-- 14/07/2026 -->
     <style>
+      html { scroll-behavior: smooth; }
+
       body {
         user-select: none;
         font-family: Arial;
@@ -22,7 +23,7 @@
 
       #template {
         font-family: monospace;
-        width: 500px;
+        width: 300px;
       }
 
       #replace-char {
@@ -46,6 +47,10 @@
 
       #whitespace {
         width: 40px;
+      }
+
+      #sep {
+        width: 20px;
       }
     </style>
   </head>
@@ -75,6 +80,10 @@
     <input type="text" maxlength="2" id="replace-char">
     <button onclick="forReplies()">For replies</button>
 
+    <span class="padding">|</span>
+    <button onclick="listAll()" title="List all in original (imported) order">List all</button>
+    <input type="text" id="sep" value=",\n">
+
     <button id="copy-btn" onclick="navigator.clipboard.writeText(document.querySelector('pre#main').innerText)">Copy</button>
 
     <pre id="main"></pre>
@@ -83,6 +92,11 @@
       "use strict";
 
       import main from "./main.json" with { type: "json" };
+
+      /* 
+        Might add: ?cmd:rule.item, ?cmd:rule[item] or ?cmd:rule#item
+        Also a ["#rule#", "#rule#", "#rule#"] option
+      */
 
       // const defaultRule = "origin";
       const excluded = ["set-14", "very-rare", "term-filter", "special-19"];
@@ -108,21 +122,47 @@
 
       const sorted0 = Object.keys(main).sort(sort);
 
+      /*
+      document.body.innerHTML = `
+      <div style="
+        position: fixed;
+        top: 0;
+        user-select: none;
+        background-color: white;
+        padding: 5px 8px;
+        width: 100%;
+        border-bottom: 1px solid grey;
+      ">
+        <a href="#top">sorted</a> | <a href="#sorted0">sorted0</a>
+      </div>
+      <pre style="margin-top: 30px;" id="sorted">${sorted.join("\n")}</pre>
+      <pre style="padding-top: 30px;" id="sorted0">${sorted0.join("\n")}</pre>`;
+      document.body.style.userSelect = "text";
+      */
+
       // button functions
 
       function forReplies() {
         let result = "";
 
-        sorted0.forEach(r => {
+        sorted0.forEach((r, i) => {
           // result += `  "(?<=\\\\s|^)\\\\?post:\\\\s*${r}(?:\\\\s.*)?$": "#${r}#",\n`;
 
+          // console.log(!main[sorted0[i]].length);
+
+          let e;
+
           if (excluded.includes(r)) {
-            result += `"${templateElem.value.replaceAll(replaceCharElem.value, r)}": "\\\\[${r}\\\\] Rule has been excluded",\n`;
+            e = `\\\\[${r}\\\\] Rule has been excluded`;
           } else if (r.substring(0, 4) === "test") {
-            result += `"${templateElem.value.replaceAll(replaceCharElem.value, r)}": "\\\\[${r}\\\\] Test rule has been excluded",\n`;
+            e = `\\\\[${r}\\\\] Test rule has been excluded`;
+          } else if (!main[sorted0[i]].length) {
+            e = `\\\\[${r}\\\\] Rule has no items (empty)`;
           } else {
-            result += `"${templateElem.value.replaceAll(replaceCharElem.value, r)}": "#${r}#",\n`;
+            e = `#${r}#`;
           }
+
+          result += `"${templateElem.value.replaceAll(replaceCharElem.value, r)}": "${e}",\n`;
         });
 
         // result += `  "${templateElem.value.replaceAll(replaceCharElem.value, "default")}": "#${defaultRule}#",\n`;
@@ -141,9 +181,35 @@
         }
       }
 
+      function listAll() {
+        mainElem.innerHTML = 
+          Object.keys(main).join(
+            document.querySelector("#sep").value
+            .replace(/\\n/g, "\n")
+          );
+      }
+
+      function urlEncoder() {
+        const str = " `¬¦\"£$^&+=€:;@<>?/áéíóúÁÉÍÓÚ|".split("");
+
+        let stacked = "";
+
+        stacked += `.replace(%,%25)`;
+
+        str.forEach(e => {
+          stacked += `.replace(${e},${encodeURIComponent(e)})`;
+        });
+
+        stacked += `.replace(',%27).replace(\\#,%23).replace(\\n,%0A).replace(!,%21)`;
+
+        const output = "#_input" + stacked + "#";
+
+        return output;
+      }
+
       // script[type=module]
 
-      Object.assign(window, { forReplies, formatted, plain, asArray });
+      Object.assign(window, { forReplies, formatted, plain, asArray, listAll, urlEncoder });
 
     </script>
   </body>
