@@ -32,7 +32,7 @@
       }
 
       .padding {
-        margin-inline: 10px;
+        margin-inline: 4px;
       }
 
       #copy-btn {
@@ -61,8 +61,7 @@
     <span class="padding">|</span>
 
     <button onclick="asArray()" title="JSON Array">Array</button>
-
-    <span class="padding"></span>
+    <button onclick="asFormattedArray()" title="JSON Array (formatted)">F</button>
 
     <input type="checkbox" id="newlines" checked="true" title="Separate items with \n"> <label for="newlines" title="Separate items with \n">Newlines</label>
 
@@ -81,6 +80,7 @@
     <button onclick="forReplies()">For replies</button>
 
     <span class="padding">|</span>
+    <button onclick="count()">Count</button>
     <button onclick="listAll()" title="List all in original (imported) order">List all</button>
     <input type="text" id="sep" value=",\n">
 
@@ -93,15 +93,16 @@
 
       import main from "./main.json" with { type: "json" };
 
-      /* 
-        Might add: ?cmd:rule.item, ?cmd:rule[item] or ?cmd:rule#item
-        Also a ["#rule#", "#rule#", "#rule#"] option
-      */
-
       // const defaultRule = "origin";
-      const excluded = ["set-14", "very-rare", "term-filter", "special-19"];
+      const excluded = [
+        "set-14",
+        "very-rare",
+        "term-filter",
+        "special-19"
+      ];
+
       const rules = Object.keys(main)
-        .filter(r => !(excluded.includes(r) || r.includes("test")));
+        .filter(r => !(excluded.includes(r) || r.includes("test") || r.includes("disabled")));
 
       const mainElem = document.querySelector("pre#main");
       const templateElem = document.querySelector("#template");
@@ -152,10 +153,16 @@
 
           let e;
 
+          function matchPrefix(matchOn, prefix) {
+            return matchOn === prefix || matchOn.startsWith(prefix + "-");
+          }
+
           if (excluded.includes(r)) {
             e = `\\\\[${r}\\\\] Rule has been excluded`;
-          } else if (r.substring(0, 4) === "test") {
+          } else if (matchPrefix(r, "test")) {
             e = `\\\\[${r}\\\\] Test rule has been excluded`;
+          } else if (matchPrefix(r, "disabled")) {
+            e = `\\\\[${r}\\\\] Rule has been disabled`;
           } else if (!main[sorted0[i]].length) {
             e = `\\\\[${r}\\\\] Rule has no items (empty)`;
           } else {
@@ -178,6 +185,14 @@
           mainElem.innerHTML = (`[\n${whitespace.value}"` + rules.join(`",\n${whitespace.value}"`) + '"\n]');
         } else {
           mainElem.innerHTML = (`["` + rules.join(`","`) + '"]');
+        }
+      }
+
+      function asFormattedArray() {
+        if (newlines.checked) {
+          mainElem.innerHTML = (`[\n${whitespace.value}"#` + rules.join(`#",\n${whitespace.value}"#`) + '#"\n]');
+        } else {
+          mainElem.innerHTML = (`["#` + rules.join(`#","#`) + '#"]');
         }
       }
 
@@ -207,9 +222,15 @@
         return output;
       }
 
+      function count() {
+        const c = "Total count: " + Object.keys(main).length;
+        console.log(c);
+        alert(c)
+      }
+
       // script[type=module]
 
-      Object.assign(window, { forReplies, formatted, plain, asArray, listAll, urlEncoder });
+      Object.assign(window, { forReplies, formatted, plain, asArray, listAll, urlEncoder, count, asFormattedArray });
 
     </script>
   </body>
