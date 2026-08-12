@@ -106,8 +106,8 @@
     <script type="module">
       "use strict";
 
-      // import main from "./main.json" with { type: "json" };
-      const main = {"origin": ["hello", "there, #verb#", "#verb#"], "verb": ["hug", "die", "fart"]};
+      import main from "./main.json" with { type: "json" };
+      // const main = {"origin": ["hello", "there, #verb#", "#verb#"], "verb": ["hug", "die", "fart"]};
 
       // const defaultRule = "origin";
       const excluded = [
@@ -247,7 +247,7 @@
 
       // script[type=module]
 
-      Object.assign(window, { forReplies, formatted, plain, asArray, listAll, urlEncoder, count, asFormattedArray });
+      Object.assign(window, { forReplies, formatted, plain, asArray, listAll, urlEncoder, count, asFormattedArray, mainTracery: main});
 
     </script>
   </body>
