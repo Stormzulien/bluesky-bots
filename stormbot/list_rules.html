@@ -52,6 +52,15 @@
       #sep {
         width: 20px;
       }
+
+      #links {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        font-size: 0.9em;
+        display: flex;
+      }
     </style>
   </head>
   <body>
@@ -82,16 +91,23 @@
     <span class="padding">|</span>
     <button onclick="count()">Count</button>
     <button onclick="listAll()" title="List all in original (imported) order">List all</button>
-    <input type="text" id="sep" value=",\n">
+    <input type="text" id="sep">
 
     <button id="copy-btn" onclick="navigator.clipboard.writeText(document.querySelector('pre#main').innerText)">Copy</button>
+
+    <span id="links">
+      <a href="./main.json">main.json</a>
+      <span class="padding">|</span>
+      <a href="./replies.json">replies.json</a>
+    </span>
 
     <pre id="main"></pre>
 
     <script type="module">
       "use strict";
 
-      import main from "./main.json" with { type: "json" };
+      // import main from "./main.json" with { type: "json" };
+      const main = {"origin": ["hello", "there, #verb#", "#verb#"], "verb": ["hug", "die", "fart"]};
 
       // const defaultRule = "origin";
       const excluded = [
@@ -112,6 +128,7 @@
       const whitespace = document.querySelector("#whitespace");
         whitespace.value = "  ";
       const newlines = document.querySelector("#newlines");
+      document.querySelector("#sep").value = ",\\n";
 
       function sort(a, b) { // make dashes come first
         const cA = (a.match(/-/g) || []).length;
