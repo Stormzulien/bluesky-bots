@@ -146806,6 +146806,9 @@
 		"Zweilous",
 		"Zygarde"
 	],
+	"pokemon": [
+		"#pokémon#"
+	],
 	"word": [
 		"#noun#",
 		"#verb#",
@@ -148702,6 +148705,7 @@
 		"#quote#",
 		"#human#",
 		"#pokémon#",
+		"#pokemon#",
 		"#word#",
 		"#digit#",
 		"#date#",

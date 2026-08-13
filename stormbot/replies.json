@@ -311,6 +311,7 @@
 	"(?<=\\s|^)\\?post:quote(?:\\s.*)?$": "#quote#",
 	"(?<=\\s|^)\\?post:human(?:\\s.*)?$": "#human#",
 	"(?<=\\s|^)\\?post:pokémon(?:\\s.*)?$": "#pokémon#",
+	"(?<=\\s|^)\\?post:pokemon(?:\\s.*)?$": "#pokemon#",
 	"(?<=\\s|^)\\?post:word(?:\\s.*)?$": "#word#",
 	"(?<=\\s|^)\\?post:digit(?:\\s.*)?$": "#digit#",
 	"(?<=\\s|^)\\?post:date(?:\\s.*)?$": "#date#",
