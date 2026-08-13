@@ -148638,6 +148638,8 @@
 		"#all-fruits#",
 		"#all-vegetables#",
 		"#math-function#",
+		"#ordinal-numeral#",
+		"#cardinal-numeral#",
 		"#origin#",
 		"#animal#",
 		"#adjective#",
@@ -152696,6 +152698,18 @@
 		"芥蘭"
 	],
 	"math-function": [
+
+	],
+	"ordinal-numeral": [
+
+	],
+	"cardinal-numeral": [
+
+	],
+	"test-cssgen": [
+
+	],
+	"test-htmlgen": [
 
 	]
 }

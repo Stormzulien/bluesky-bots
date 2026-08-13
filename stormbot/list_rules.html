@@ -26,7 +26,7 @@
         width: 300px;
       }
 
-      #replace-char {
+      #replace-char, #replace-char-2 {
         font-family: monospace;
         width: 20px;
       }
@@ -84,9 +84,11 @@
     
     <input type="text" placeholder="template" id="template">
 
-    <span>Replace char:</span>
+    <span>Replace:</span>
     <input type="text" maxlength="2" id="replace-char">
+    <!-- <input type="text" maxlength="2" id="replace-char-2"> -->
     <button onclick="forReplies()">For replies</button>
+    <button onclick="full()">Full</button>
 
     <span class="padding">|</span>
     <button onclick="count()">Count</button>
@@ -125,6 +127,8 @@
         templateElem.value = "(?<=\\\\s|^)\\\\?post:%r(?:\\\\s.*)?$";
       const replaceCharElem = document.querySelector("#replace-char");
         replaceCharElem.value = "%r";
+      // const replaceCharElem2 = document.querySelector("#replace-char-2");
+      //   replaceCharElem2.value = "%n";
       const whitespace = document.querySelector("#whitespace");
         whitespace.value = "  ";
       const newlines = document.querySelector("#newlines");
@@ -160,6 +164,10 @@
 
       // button functions
 
+      function matchPrefix(matchOn, prefix) {
+        return matchOn === prefix || matchOn.startsWith(prefix + "-");
+      }
+
       function forReplies() {
         let result = "";
 
@@ -169,10 +177,6 @@
           // console.log(!main[sorted0[i]].length);
 
           let e;
-
-          function matchPrefix(matchOn, prefix) {
-            return matchOn === prefix || matchOn.startsWith(prefix + "-");
-          }
 
           if (excluded.includes(r)) {
             e = `\\\\[${r}\\\\] Rule has been excluded`;
@@ -245,10 +249,14 @@
         alert(c)
       }
 
+      function full() {
+        console.log("Full: Not working");
+        alert("Not working");
+      }
+
       // script[type=module]
 
-      Object.assign(window, { forReplies, formatted, plain, asArray, listAll, urlEncoder, count, asFormattedArray, mainTracery: main});
-
+      Object.assign(window, { forReplies, formatted, plain, asArray, listAll, urlEncoder, count, asFormattedArray, mainTracery: main, full});
     </script>
   </body>
 </html>
